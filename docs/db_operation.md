@@ -45,7 +45,14 @@ DATABASES = {
 }
 ```
 
+### 添加App
 
+```
+# vim settings.py
+INSTALLED_APPS = (
+User
+)
+```
 
 ### 同步数据库
 
