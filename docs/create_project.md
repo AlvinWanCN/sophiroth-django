@@ -29,10 +29,17 @@ python manage.py runserver 0.0.0.0:8080
 ```
 
 
+##### 不指定IP和端口
+
+直接在第三步中，如果不指定ip和端口，直接执行 python manage.py runserver， 则是默认使用127.0.0.1和8080端口，执行IP和端口后，则用我们执行的。
+
 ### step4: visit django web
 
 after step3 done, you can visit the django web now.
 
 url:   localhost:8080
+
+
+
 
 
