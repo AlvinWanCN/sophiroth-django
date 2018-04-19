@@ -54,6 +54,16 @@ User
 )
 ```
 
+### 添加到管理员端
+
+```
+# vim sophiroth/admin.py
+class UserAdmin(admin.ModelAdmin):
+    list_display = ['username','email']
+    search_fields = ['user']
+admin.site.register(User,UserAdmin)
+```
+
 ### 同步数据库
 
 ```cmd
