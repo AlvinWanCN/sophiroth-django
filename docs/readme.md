@@ -3,6 +3,7 @@
 ## django documents
 
 
+
 ##
 {{}} 变量
 {%%}标签
@@ -38,3 +39,6 @@ django里的变量是用{{ }}来包裹表示，vue也是，冲突了怎么办？
     {% endverbatim myblock %
 
   ```
+
+
+  特效文字： https://www.w3cplus.com/css3/text-effect
