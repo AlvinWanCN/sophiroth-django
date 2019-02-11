@@ -58,6 +58,7 @@ User
 
 ```
 # vim sophiroth/admin.py
+from User.models import *
 class UserAdmin(admin.ModelAdmin):
     list_display = ['username','email']
     search_fields = ['user']
